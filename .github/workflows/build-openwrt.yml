@@ -73,6 +73,12 @@ jobs:
 
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
+      
+    - name: install argon
+      run: cd openwrt/package/lean && rm -rf luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git && cd ../..
+      
+    - name: Install dockerman
+      run: cd openwrt/package/lean && git clone https://github.com/lisaac/luci-app-dockerman.git && cd ../..
 
     - name: Load custom configuration
       run: |
