@@ -22,7 +22,6 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git
 
 git clone https://github.com/kenzok8/openwrt-packages.git
 git clone https://github.com/kenzok8/small.git
-git clone https://github.com/sirpdboy/netspeedtest
 
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
