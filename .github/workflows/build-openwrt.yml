@@ -47,7 +47,7 @@ jobs:
         remove-android: 'true'
 
     - name: Checkout
-      uses: actions/checkout@main
+      uses: actions/checkout@mainv2
 
     - name: Initialization environment
       env:
